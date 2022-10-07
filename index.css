@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.Container-color{
+    margin: 5px; 
+    box-shadow: -2px -2px 5px rgba(0,0,0,0.2),
+    2px 2px 5px rgba(0,0,0,0.2); 
+    width: 100%;
+}
+.contianer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.Container-color{
+    display: flex;
+    flex-direction: column;
+}
+#getColor{
+    background: white;
+    border:none;
+    box-shadow: -2px -2px 5px rgba(0,0,0,0.2),
+    2px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+.container-middle{
+    min-height: 80vh;
+    display: flex;
+}
+.colorShade{
+    flex:1;
+}
+.colorShadeName{
+   flex:1;
+    text-align: center;
+}
+.container-bottom{
+    /* min-height: 5vh; */
+    padding: 5px 2px;
+    display: flex;
+    font-size: 14px;
+    box-shadow: -2px -2px 5px rgba(0,0,0,0.2);
+}
+.colorShadeHexValue{
+    width: 100%;
+    border:none;
+    text-align: center;
+}
+@media all and (min-width:450px){
+    .Container-color{
+        max-width: 400px;
+        margin: 0 auto;
+        
+    }
+}
